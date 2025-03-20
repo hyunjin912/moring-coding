@@ -31,6 +31,7 @@ class Solution {
         case "C":
           if (pointBoard.isNotEmpty) {
             pointBoard.remove(pointBoard.last);
+            // 메서드에 removeLast()가 있음
           }
           break;
         case "D":
